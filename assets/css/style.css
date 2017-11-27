@@ -7,7 +7,7 @@ html, body{
 body {
 		display: inline-block;
 		background-image: url("../images/brickwall/brickwall_@2X.png");
-		/*height*/: auto;
+		min-height: 800px;
 		width: 100%;
 		font-family: ‘Lucida Grande’, ‘Lucida Sans Unicode’, Lucida, Verdana, Helvetica, Arial, sans-serif;
 		color: #7b636c;
@@ -77,8 +77,8 @@ main {
 	margin-top: 75px;
 	margin-left: 100px;
 	margin-right: 100px;
-	margin-bottom: 10px
-	width: 980px;
+	margin-bottom: 80px
+	max-width: 980px;
 	padding-top: 25px;
     filter: alpha(opacity=.50); /* For IE8 and earlier */
 		}
@@ -196,10 +196,10 @@ input #submit [type=submit]:hover {
     background-color: #45a049;
 }
 .footer {
-	height: : 100px;
+	/*height: : 100px;*/
 	width:  100%;
 	font-family: ‘Lucida Grande’, ‘Lucida Sans Unicode’, Lucida, Verdana, Helvetica, Arial, sans-serif;
-	margin-top: 10px;
+	margin-top: 40px;
 	color: white;
 	/*right: 0;*/
   	bottom: 0;
